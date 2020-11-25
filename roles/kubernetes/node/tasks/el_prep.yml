@@ -5,7 +5,7 @@
         name: Kubernetes
         description: Kubernetes Repository
         file: kubernetes
-        baseurl: http://yum.kubernetes.io/repos/kubernetes-el7-x86_64
+        baseurl: http://mirrors.aliyun.com/kubernetes/yum/repos/kubernetes-el7-x86_64
         enabled: yes
         gpgcheck: no
     - name: Deactivate and remove firewalld

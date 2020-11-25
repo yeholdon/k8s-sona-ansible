@@ -16,7 +16,7 @@
   block:
     - name: "Get Helm installer"
       get_url:
-        url: https://raw.githubusercontent.com/helm/helm/master/scripts/get
+        url: https://gitee.com/yeholdon/imagebed/blob/master/img/get
         dest: "{{ tmp_dir }}/get_helm.sh"
         mode: 0755
   
