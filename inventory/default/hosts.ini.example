@@ -1,9 +1,8 @@
 [master]
-192.168.56.101
+192.168.19.140
 
 [worker]
-192.168.56.102
+
 
 [cluster:children]
 master
-worker
