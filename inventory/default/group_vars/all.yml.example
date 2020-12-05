@@ -21,8 +21,8 @@ srv_cidr: "10.96.0.0/12"
 pod_net_cidr: "10.10.0.0/16"
 overlay_type: "VXLAN"
 seg_id: 100
-ext_intf: "ens33"
-ext_gw_ip: "192.168.19.2"
+ext_intf: "eth1"
+ext_gw_ip: "192.168.0.1"
 mtu: 1400
 
 # Change this to an appropriate interface, preferably a private network.

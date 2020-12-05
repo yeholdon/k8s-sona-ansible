@@ -36,7 +36,7 @@
   when: init_cluster is succeeded and enable_dashboard
   shell: |
     kubectl --kubeconfig={{ kubeadmin_config }} \
-        apply -f https://raw.githubusercontent.com/kubernetes/dashboard/master/aio/deploy/recommended.yaml
+        apply -f https://gitee.com/yeholdon/imagebed/blob/a81fe16ec0d32639f8c58e173a5685d500492cdb/img/recommended.yaml
     kubectl apply -f {{ role_path }}/files/admin-user.yml
     kubectl apply -f {{ role_path }}/files/admin-role-binding.yml
   register: create_result
